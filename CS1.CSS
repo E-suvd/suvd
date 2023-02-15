@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(27, 26, 26);
+}
+
+p{
+    font-family: Arial;
+}
+.article-title{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.time-stats{
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.author{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+.description{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    line-height: 20px;
+    width: 280px;
+}
+
+.thumbnail{
+    width: 250px;
+    border-radius: 15px;
+    contain: fir;
+}
+
+.thumbnail, .author{
+    vertical-align: middle;
+}
+
+.zurag{
+    width: 40px;
+    border-radius: 60px;
+    contain: fit;
+}
+
+.zurag, .author{
+    vertical-align: middle;
+}
+
+.view{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+    line-height: 20px;
+    width: 280px;
+    margin-left: 45px;
+}
+.ff{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+    width: 280px;
+    display: inline-block;
+}
+
+.zurag, .ff{
+    vertical-align: top;
+}
+
+
